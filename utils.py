@@ -37,7 +37,7 @@ def smil_prediction(img, mdl="Image_Smil_classifier.h5"):
 
 # cette fonction attend 2 paramètres
 # un chemin vers une image et un chemin vers un modèle de ML/DL
-def TB_prediction(img, mdl="Image_TB_classifier1.h5"):
+def TB_prediction(img, mdl="imageTBclassifier1.h5"):
     # je précharge mon modèle
     model = load_model(mdl)
 
